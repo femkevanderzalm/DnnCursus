@@ -1,0 +1,8 @@
+﻿<h1>XCESS Documents 1.00</h1>
+
+<p>Dit is de initiële versie van deze module</p>
+
+<h2>Minimale vereisten</h2>
+<ul>
+	<li>DNN Framework >=8.0.4</li>
+</ul>

@@ -120,10 +120,7 @@
   <data name="EditModule.Text" xml:space="preserve">
     <value>Edit Module</value>
   </data>
-  <data name="MyModuleTitle.Text" xml:space="preserve">
-    <value>Available files for </value>
-  </data>
-  <data name="NotLoggedInWarning.Text" xml:space="preserve">
-    <value>No user! You have to log in to use this module.</value>
+  <data name="MyModuleTitle.text" xml:space="preserve">
+    <value>Available files for</value>
   </data>
 </root>

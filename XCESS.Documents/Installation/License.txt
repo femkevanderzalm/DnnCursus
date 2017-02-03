@@ -1,0 +1,14 @@
+﻿<h1>License</h1>
+<p>
+Copyright (c) 2017 XCESS expertise center b.v.
+</p>
+<p>
+The software is owned by XCESS expertise center b.v. and is protected by the Dutch copyright laws and international treaty provisions.<br/>
+You are allowed to make copies of the software solely for backup or archival purposes.<br/>
+You may not lease, rent, export or sublicense the software.<br/>
+You may not reverse engineer, decompile, disassemble or create derivative works from the software.
+</p>
+<p>
+<em>XCESS expertise center b.v.</em>, Storkstraat 19, 3833 LB Leusden, The Netherlands<br/>
+T. +31-33-4335151, E. <a href="mailto:info@xcess.nl">info@xcess.nl</a> I. <a href="http://www.xcess.nl" target="_blank">http://www.xcess.nl</a>
+</p>

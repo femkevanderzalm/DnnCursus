@@ -1,4 +1,0 @@
-﻿<h1>License</h1>
-<p>
-	You are not allowed to do anything with this!
-</p>

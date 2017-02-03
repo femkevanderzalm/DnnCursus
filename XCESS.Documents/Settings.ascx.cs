@@ -2,10 +2,11 @@ using System;
 using DNNtc;
 using DotNetNuke.Entities.Modules;
 using DotNetNuke.Services.Exceptions;
+using DotNetNuke.Services.FileSystem;
 
-namespace MyFirstModule
+namespace XCESS.Documents
 {
-    [ModuleControlProperties("Settings", "Configure settings", ControlType.Edit, "", true, true)]
+    [DNNtc.ModuleControlProperties("Settings", "Configure settings", DNNtc.ControlType.Edit, "", true, true)]
     public partial class Settings : ModuleSettingsBase
     {
         #region Base Method Implementations
@@ -18,6 +19,11 @@ namespace MyFirstModule
                 {
                     //Check for existing settings and use those on this page
                     //Settings["SettingName"]
+                    if (this.Settings["xec_FolderID"] != null)
+                    {
+                        var folder= FolderManager.Instance.GetFolder(Convert.ToInt32(this.Settings["xec_FolderID"]));
+                        this.DropDownListFolder.SelectedFolder = folder;
+                    }
                 }
             }
             catch (Exception exc) //Module failed to load
@@ -32,7 +38,8 @@ namespace MyFirstModule
             {
                 var modules = new ModuleController();
                 //modules.UpdateTabModuleSetting(this.TabModuleId, "ModuleSetting", (control.value ? "true" : "false"));
-                //modules.UpdateModuleSetting(this.TabModuleId, "LogBreadCrumb", (control.value ? "true" : "false"));
+                modules.UpdateModuleSetting(this.ModuleId, "xec_FolderID", this.DropDownListFolder.SelectedFolder.FolderID.ToString());
+
             }
             catch (Exception exc) //Module failed to load
             {

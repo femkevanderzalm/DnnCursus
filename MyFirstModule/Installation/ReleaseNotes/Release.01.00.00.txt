@@ -1,5 +1,0 @@
-﻿<h1>Releasenotes</h1>
-<p>
-	My First Module. Yeah!
-</p>
-	

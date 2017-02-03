@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ControlTitle_settings.Text" xml:space="preserve">
-    <value>MyFirstModule settings</value>
+    <value>XCESS Documents settings</value>
+  </data>
+  <data name="lblFolder.Help" xml:space="preserve">
+    <value>Here you can set the documents folder.</value>
+  </data>
+  <data name="lblFolder.Text" xml:space="preserve">
+    <value>Documents folder</value>
   </data>
 </root>

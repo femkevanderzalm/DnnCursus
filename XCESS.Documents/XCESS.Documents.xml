@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>MyFirstModule</name>
+        <name>XCESS.Documents</name>
     </assembly>
     <members>
         <member name="T:DNNtc.ModuleControlProperties">
@@ -48,39 +48,39 @@
             The type of dependency for the DotNetNuke Module
             </summary>
         </member>
-        <member name="T:MyFirstModule.Settings">
+        <member name="F:XCESS.Documents.Settings.lblFolder">
             <summary>
-            Settings class.
+            lblFolder control.
             </summary>
             <remarks>
-            Auto-generated class.
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
             </remarks>
-            -----------------------------------------------------------------------------
-            <summary>
-            The Settings class manages Module Settings
-            </summary>
-            -----------------------------------------------------------------------------
         </member>
-        <member name="M:MyFirstModule.Settings.LoadSettings">
-            -----------------------------------------------------------------------------
+        <member name="F:XCESS.Documents.Settings.txtFolder">
             <summary>
-            LoadSettings loads the settings from the Database and displays them
+            txtFolder control.
             </summary>
-            -----------------------------------------------------------------------------
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
         </member>
-        <member name="M:MyFirstModule.Settings.UpdateSettings">
-            -----------------------------------------------------------------------------
+        <member name="F:XCESS.Documents.Settings.DropDownListFolder">
             <summary>
-            UpdateSettings saves the modified settings to the Database
+            DropDownListFolder control.
             </summary>
-            -----------------------------------------------------------------------------
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
         </member>
-        <member name="T:MyFirstModule.View">
+        <member name="T:XCESS.Documents.View">
             <summary>
-            The View class displays the content
+                The View class displays the content
             </summary>
         </member>
-        <member name="F:MyFirstModule.View.lblMyModuleTitle">
+        <member name="F:XCESS.Documents.View.lblMyModuleTitle">
             <summary>
             lblMyModuleTitle control.
             </summary>
@@ -89,7 +89,7 @@
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
-        <member name="F:MyFirstModule.View.lblCurrentUser">
+        <member name="F:XCESS.Documents.View.lblCurrentUser">
             <summary>
             lblCurrentUser control.
             </summary>
@@ -98,18 +98,18 @@
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
-        <member name="F:MyFirstModule.View.rptFiles">
+        <member name="F:XCESS.Documents.View.TreeView1">
             <summary>
-            rptFiles control.
+            TreeView1 control.
             </summary>
             <remarks>
             Auto-generated field.
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
-        <member name="M:MyFirstModule.View.Page_Load(System.Object,System.EventArgs)">
+        <member name="M:XCESS.Documents.View.Page_Load(System.Object,System.EventArgs)">
             <summary>
-            Runs when the control is loaded
+                Runs when the control is loaded
             </summary>
         </member>
     </members>

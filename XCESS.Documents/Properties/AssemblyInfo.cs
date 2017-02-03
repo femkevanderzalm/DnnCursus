@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
-[assembly: AssemblyTitle("MyFirstModule")]
+[assembly: AssemblyTitle("XCESS.Documents")]
 [assembly: AssemblyDescription("A DotNetNuke Module from XCESS expertise center b.v.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]

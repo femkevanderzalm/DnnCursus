@@ -117,7 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ControlTitle_settings.Text" xml:space="preserve">
-    <value>MyFirstModule instellingen</value>
+  <data name="EditModule.Text" xml:space="preserve">
+    <value>Bewerken Module</value>
+  </data>
+  <data name="MyModuleTitle.Text" xml:space="preserve">
+    <value>Beschikbare bestanden voor </value>
+  </data>
+  <data name="NotLoggedInWarning.Text" xml:space="preserve">
+    <value>Log in om meer bestanden te kunnen zien.</value>
   </data>
 </root>

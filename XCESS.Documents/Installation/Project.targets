@@ -44,14 +44,14 @@
 		<!--Fill in the folder where the output will be build to-->
 		<BinDir>$(MSBuildProjectDirectory)\bin</BinDir>
 		<!--Module properties.-->
-		<ModuleName>XCESS.MyFirstModule</ModuleName>
-		<FolderName>XCESS\DnnCursus\MyFirstModule</FolderName>
-		<FriendlyName>XCESS.MyFirstModule</FriendlyName>
+		<ModuleName>XCESS_Documents</ModuleName>
+		<FolderName>XCESS\Documents</FolderName>
+		<FriendlyName>XCESS Documents</FriendlyName>
 		<!--IconFile should be placed in the Installation folder of the project. A .png file of 32x32 pixels is recommended -->
-		<IconFile>XCESSLogo.png</IconFile>
-		<ModuleDescription>A MsBuildTest DotNetNuke Module</ModuleDescription>
-		<azureCompatible>false</azureCompatible>
-		<AlsoBuildSourcesZip>true</AlsoBuildSourcesZip>
+		<IconFile>XCESS_icon.png</IconFile>
+		<ModuleDescription>A Module for displaying documents in DNN</ModuleDescription>
+		<azureCompatible>true</azureCompatible>
+		<AlsoBuildSourcesZip>false</AlsoBuildSourcesZip>
 		<defaultCacheTime>-1</defaultCacheTime>
 	</PropertyGroup>
 	<!--Add EXTRA dll's these will be added to the Package. The output of the project is automatically added-->
@@ -544,6 +544,6 @@
 			<Output TaskParameter="Include" ItemName="BinFiles" />
 		</CreateItem>
 		<!--Copy the files-->
-		<Copy SourceFiles="@(BinFiles)" DestinationFolder="..\..\..\..\bin\" SkipUnchangedFiles="true" ContinueOnError="false" />
+		<Copy SourceFiles="@(BinFiles)" DestinationFolder="..\..\..\bin\" SkipUnchangedFiles="true" ContinueOnError="false" />
 	</Target>
 </Project>
